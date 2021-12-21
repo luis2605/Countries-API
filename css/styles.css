@@ -93,7 +93,7 @@ body{
 }
 .country-display{
     text-align: center;
-    margin: auto 0;
+    margin: 1em 0 3em 0;
    
 }
 .back{
@@ -108,11 +108,12 @@ body{
     margin: 1em;
 }
 .coat-of-arms{
-    width: 50%;
+    width: 15%;
     margin: 0.5em auto ;
 }
 .flag{
-    margin: 0 auto;
+    width:50%;
+    margin: 0 1em;
 }
 #continents{
     background-color: whitesmoke;
@@ -131,5 +132,5 @@ body{
     display: block;
 }
 #selector-single-page{
-    padding: 5em 0 0 0;
+    padding: .5em 0 1em 0;
 }

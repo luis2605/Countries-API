@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries API</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" id="container-box">
+      <div class="container-title-mod-btn">
+        <h1 class="title">Where in the world?</h1>
+
+        <a class="mod-text" href="#" id="mod-btn">
+          <img
+            id="darkmode-icon"
+            class="mod-icon"
+            src="img/outline_nightlight_round_black_24dp.png"
+          />
+          Night-Mode
+        </a>
+      </div>
+      <div class="back" id="back-container">
+        <a class="back-text" href="#" id="back-btn"> BACK</a>
+      </div>
+      <div class="container-searchbar-elements" id="container-elements">
+        <div class="container-searchbar">
+          <input
+            class="input-field"
+            id="input-field-box"
+            type="text"
+            placeholder="Search for a country.."
+            name="search"
+            maxlength="10"
+            size="40"
+          />
+          <a class="search-btn" id="search" href="#"
+            ><i class="fa fa-search"></i
+          ></a>
+        </div>
+        <div class="container-searchbar container-filter">
+          <label for="continents">Filter by region:</label>
+          <select
+            name="continents"
+            id="continents"
+            onchange="changingContinents()"
+          >
+            <option value="#"></option>
+            <option value="africa">Africa</option>
+            <option value="america">America</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="oceania">Ocenia</option>
+          </select>
+        </div>
+        <div class="country-display" id="country-display-box"></div>
+        <div class="continents-display" id="continents-display-box"></div>
+
+        <p>coded by [̲̲̅̅l̲̲̅̅R̲̲̅̅o̲̲̅̅N̲̲̅̅d̲̲̅̅o̲̲̅̅n̲̲̅̅6̲̲̅̅]</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

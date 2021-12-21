@@ -93,7 +93,7 @@ body{
 }
 .country-display{
     text-align: center;
-    margin: 1em 0 3em 0;
+    margin: 1em 0 20em 0;
    
 }
 .back{
@@ -108,7 +108,7 @@ body{
     margin: 1em;
 }
 .coat-of-arms{
-    width: 15%;
+    width: 40%;
     margin: 0.5em auto ;
 }
 .flag{
